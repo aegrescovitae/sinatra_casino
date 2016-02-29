@@ -1,0 +1,12 @@
+<h1 class="centertitle">Hi-Lo</h1>
+
+<div class="messages">
+  <p>Your bet is...</p>
+  <% @bet %>
+
+  <p>The first number is..</p>
+<p> Do you think that the next number will be higher or lower?</p>
+<form action='/hi_lo_number1' method='POST'>
+  <input type='text' name='@guess'>
+  <input type='submit' name='submit'>
+</div>
